@@ -7,6 +7,8 @@
 - [Study Region](#study-region) 
 - [Methods](#methods)  
 - [Key Findings](#key-findings) 
+- [Supplemental Figures](#bay-area-2020-fires)
+___
 
 
 ## Project Description
@@ -23,7 +25,7 @@ This documentation is meant to serve as a guide to execute the central workflow 
 Six primary iPython notebooks (.ipynb) files are made available in the Scripts folder to run consecutively. We recommend using Google Colab, which is a Python development environment that allows you to run Jupyter notebooks in the browser i.e. so you don’t have to locally. When running the scripts using Google’s Colab notebook, each step has pre-existing set-up
 lines to enable a smooth runtime. Although unlikely, to prevent any overloading and crashes when using [Colab Pro](https://colab.research.google.com/notebooks/pro.ipynb) be sure to access the high-memory runtime whenever possible. 
 
-<b>Complete step-by-step 'how to' overview can be found [here](./howto.pdf)</b>
+<b>Complete step-by-step 'how to' overview can be found [here](./docs/howto.pdf)</b>
 
 
 <figure class="image">
@@ -63,6 +65,11 @@ This study examined fires larger than 200 hectares (~500 acres) from January 1, 
 <figure class="image">
   <img src="./docs/assets/Figure2.png" alt="study region">
   <figcaption>Figure 2. Fire perimeters in the entire study region, overlaid on top of EPA level III ecoregions. High risk years (2015, 2017, 2018, 2020) highlighted with multi-colored hash marks. </figcaption>
+</figure>
+
+<figure class="image">
+  <img src="./docs/assets/gif1.gif" alt="study region">
+  <figcaption>S1. Animation of annualy total burned area of large fires. </figcaption>
 </figure>
 
 ## Methods 
@@ -168,3 +175,19 @@ Data sources include:
   <figcaption> Figure 9. SHAP feature dependence plots for fire spread model for selected variables for each ecoregion plotted with interactions (hue) where red is high and blue is low values.
 </figcaption>
 </figure>
+
+
+
+## Bay Area 2020 Fires
+
+<figure class="image">
+  <img src="./docs/assets/gif2.gif" alt="study region">
+</figure>
+<figure class="image">
+  <img src="./docs/assets/fig11.jpg" alt="study region">
+  <figcaption> S2. Del Puerto fire in the lightning ignited 2020 Bay Area fires. a) Animated fire progression of daily derived perimeters, satellite-detected hotspots, and building footprints (yellow). b) Plotted time series of area burned, magnitude, and day-time averages of weather station variables including temperature, vapor pressure deficit, and wind speed, along with c) percent fuel type based on LandFire.</figcaption>
+</figure>
+
+
+
+
